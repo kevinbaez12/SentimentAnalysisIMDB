@@ -1,0 +1,11 @@
+## Sentiment Analysis of IMDB Movie Reviews
+
+This dataset consisted of 50k movie reviews, with 2 columns, the review and the sentiment, the sentiment allowed us to see whether the review was positive or negative. 
+
+The problem we're facing and solved is which machine learning model is best to predict the sentiment given the movie review. 
+
+In order to solve the problem, and answer the question we utilized the Python pandas and sci-kit learn libraries. We begun by cleaning and vectorizing our data, with techniques such as CountVectorizer and TF-IDF, turning our text data into numerical vectors. Furthermore, in order to achieve the highest accuracy we placed our matrix through machine learning models such as, SVM, Decision Tree, Naive Bayes, and Logistic Regression. 
+
+Once our model with the highest accuracy was returned, we ran a series of evaluations for mean accuracy, F1 Score, Classification report and a confusion matrix. 
+
+Finally, in order to maximize the performance of our model we used GridSearchCV, tuning our hyperparameters to achieve the highest accuracy of our SVC model. 
